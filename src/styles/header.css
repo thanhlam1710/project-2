@@ -1,0 +1,283 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header__logo {
+  width: 133px;
+  height: 58px;
+  overflow: hidden;
+}
+
+.header__logo .header__logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.header__search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__search input {
+  border: none;
+  outline: none;
+  width: 400px;
+  background: #EDEDED;
+  border-radius: 12px;
+  padding: 13px 17px;
+  line-height: 20px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header__search span {
+  position: absolute;
+  right: 10px;
+  align-items: center;
+}
+
+
+.header__icon .mailicon,
+.header__icon .bellicon,
+.header__icon img {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.header__icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+.site-layout-background {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  height: 100%;
+}
+
+.ant-layout {
+  padding: 20px;
+}
+
+.ant-select-selection__placeholder {
+  color: blue;
+}
+
+::placeholder {
+  color: #3a3a3a;
+}
+
+.ant-input {
+  background-color: #EDEDED
+}
+
+.trangchu .donutchart {
+  width: 1230px;
+  height: 350px;
+  margin-left: 30px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.trangchu .piechart {
+  position: absolute;
+  left: 220px;
+  display: flex;
+  height: 200px;
+  width: 100px;
+}
+
+.trangchu .piechart .div {
+  height: 100px;
+  width: 100px;
+  line-height: 75px;
+}
+
+.filter-background {
+  background-color: #ffffff;
+  margin: 16px 24px 16px 20px;
+  border-radius: 15px;
+  padding: 20px;
+  height: 100%;
+}
+
+.side {
+  float: left;
+  background-color: #ffffff;
+  max-width: initial !important;
+  min-width: auto !important;
+  width: 100% !important;
+  padding: 20px;
+  height: 100vh;
+  border-radius: 24px;
+}
+
+.wrap-center {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.wrap-center-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-left: 0;
+}
+
+.ant-layout.ant-layout-has-sider .ant-layout-content {
+  width: auto;
+}
+
+.space-button {
+  display: flex;
+}
+
+.button-cancel {
+  background-color: #ffffff;
+  color: coral;
+  border-radius: 15px;
+  height: 30px;
+  width: 100px;
+}
+
+.button-ok {
+  background-color: coral;
+  color: #ffffff;
+  border-radius: 15px;
+  height: 30px;
+  width: 100px;
+}
+
+.container {
+  height: 50px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ant-modal-footer {
+  border-top: none;
+}
+
+.ant-modal-header {
+  border-bottom: none;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.ant-modal-content {
+  height: fit-content;
+  width: 600px;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  background: #FFFFFF;
+  border-radius: 16px;
+}
+
+.gutter-box {
+  padding: 8px 0;
+}
+
+.ant-picker-suffix {
+  color: coral;
+}
+
+.caidat-modal .ant-modal-content {
+  height: fit-content;
+  width: 800px;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+.caidat-add .ant-modal-content {
+  height: fit-content;
+  padding: 10px;
+  width: 800px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+.filter-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.radio-content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1E0D03;
+  opacity: 0.7;
+}
+
+.filter-check {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+input[type='radio'],
+input[type='checkbox'] {
+  font-size: 24px;
+}
+
+.ant-checkbox+span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1E0D03;
+  opacity: 0.7;
+}
+
+.change-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1E0D03;
+  opacity: 0.7;
+  margin-bottom: 17px;
+  width: 140px;
+}
+
+.change-content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1E0D03;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+}
+
+.change-item {
+  display: flex;
+  align-items: center;
+}

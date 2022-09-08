@@ -1,0 +1,97 @@
+.chart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chart__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #1E0D03;
+}
+
+.chart__date button {
+    padding: 8px 12px;
+    background: #FFFFFF;
+    border: 1px solid #E6E0E0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.chart__date button i {
+    color: #FF993C;
+
+}
+
+.chart__count {
+    margin-top: 40px;
+}
+
+.chart__count .count-title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #1E0D03;
+    opacity: 0.5;
+}
+
+.chart__count .count-price {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1E0D03;
+}
+
+.chart__count p span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #1E0D03;
+    margin-left: 5px;
+}
+
+.container__pie {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 92px;
+}
+
+
+.pie-event,
+.pie-family {
+    width: 20%;
+}
+
+.pie-detail {
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.pie-event p,
+.pie-family p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #1E0D03;
+}
+
+.deital-use, .deital-unuse {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.use-red,
+.use-blue {
+    width: 44px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.use-red {
+    background: #FF8A48;
+}
+
+.use-blue {
+    background: #4F75FF;
+}

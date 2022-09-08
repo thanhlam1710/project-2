@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+
+
+.body {
+    font-family: 'Montserrat';
+}
+
+aside {
+    width: 20%;
+}
+
+.ant-layout {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.site-layout-background {
+    width: 60%;
+}
+
+.App {
+    padding: 20px;
+    background: #f0f2f5;
+}
+
+.ant-layout-has-sider {
+    padding: 0;
+    margin: 0;
+}
+
+.search {
+    padding: 10px 16px;
+    border-radius: 8px;
+    width: 25%;
+    background: transparent;
+}
+
+.ant-input-affix-wrapper>input.ant-input {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ant-table-wrapper {
+    padding-top: 30px;
+}
+
+.ant-input-affix-wrapper {
+    border: none;
+    outline: none;
+}
+
+.anticon-search {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+    border: none;
+}
+
+.ant-input-affix-wrapper:hover {
+    border: none;
+    background: transparent;
+}
+
+.button-btn {
+    border: 1px solid #FF993C;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    padding: 12px 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FF993C;
+    border: 1px solid #FF993C;
+    height: 48px;
+    display: flex;
+    text-align: center;
+    background: transparent;
+}
+
+.mr {
+    margin-right: 5px;
+}
+
+.button-btn:hover {
+    background: #FF993C;
+    color: #F7F7F8;
+}
+
+.filter__ticket {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.vertical-radio {
+    font-size: 16px;
+}
+
+.filter-category,
+.filter__radio,
+.filter__date {
+    display: flex;
+    margin-top: 20px;
+}
+
+.filter-category .category-title,
+.radio-title {
+    width: 50%;
+}
+
+.filter__date {
+    align-items: center;
+}
+
+.date-title,
+.radio-title,
+.category-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E0D03;
+}
+
+.category-content {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E0D03;
+    opacity: 0.7;
+}
+
+.filter__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.filter__button button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FF993C;
+    border: none;
+    outline: none;
+    padding: 11px 40px;
+    border: 1px solid #FF993C;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.filter__button button:hover {
+    background: #FF993C;
+    color: #ffffff;
+}
+
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1E0D03;
+}
+
+.title-content {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1E0D03;
+}
+
+.form-input {
+    border: 1px solid #A5A8B1;
+    border-radius: 8px;
+    outline: none;
+    padding: 7px 16px;
+    width: 83%;
+    font-size: 16px;
+}
+
+.form-input-date {
+    margin-right: 5px;
+}
+
+.form-input-date,
+.form-input-time {
+    padding: 7px 16px;
+    border-radius: 8px;
+}
+
+.form-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.price-checked[type=checkbox] {
+    font-size: 24px;
+}
+
+.price-checked {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E0D03;
+    opacity: 0.7;
+    width: 200px;
+}
+
+.form-input-price {
+    padding: 10px 12px;
+    background: #F1F4F8;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.form-input-status {
+    width: 200px;
+}
+
+.form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FF993C;
+    background: transparent;
+    border: 1px solid #FF993C;
+    border-radius: 8px;
+    outline: none;
+    padding: 11px 24px;
+    width: 160px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background: #FF993C;
+    color: #ffffff;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.7;
+    font-style: italic;
+}
